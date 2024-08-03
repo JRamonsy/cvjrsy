@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .responsive-container {
+      flex-direction: column;
+  }
+  .responsive-column {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+}
+
+.contact, .skills {
+  padding: 3vh;
+}
+
+.education {
+  padding-left: 3.5vh;
+}
