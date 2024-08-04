@@ -12,7 +12,7 @@ function App() {
 
             <div className="responsive-column w-full md:w-1/3 bg-blue-900 text-white p-6">
                 <div className="mb-6">
-                    <img alt="" className="rounded-full  h-70 mx-auto mb-4" src="public\perfil.jpg" width="200" height="200"/>
+                    <img alt="" className="rounded-full  h-70 mx-auto mb-4" src="\perfil.jpg" width="200" height="200"/>
                     <h1 className="text-2xl font-bold text-center">Juan Ramón Salas Yañez</h1>
                     <p className="text-center text-sm">Ingeniero Industrial & Desarrollador Full Stack</p>
                 </div>
